@@ -1,0 +1,575 @@
+.main_section {
+    width: 100%;
+
+    background-color: #f9f9f9;
+
+
+
+
+}
+
+.content_section {
+    display: grid;
+
+
+
+}
+
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+    padding-bottom: 15px;
+
+
+}
+
+.navbar div {
+    background-color: white;
+}
+
+.logo img {
+    margin-left: 50px;
+    margin-top: 15px;
+
+
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.navbar .list .item {
+
+    font-family: Gilroy;
+    font-size: 17.16px;
+    font-weight: 500;
+    line-height: 20.82px;
+
+}
+
+.navbar .list button {
+    font-family: Gilroy;
+    font-size: 17.16px;
+    font-weight: 500;
+    line-height: 20.82px;
+    color: white;
+    background-color: #75BF7A;
+    width: 182px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+    border-radius: 5.95px;
+
+    border-color: #75BF7A;
+
+
+
+}
+
+.hiro_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+
+.hiro_image img {
+    padding-top: 25px;
+    width: 553px;
+    height: 582.81px;
+    top: 228.83px;
+    left: 740px;
+    background-size: contain;
+
+    margin-left: 8%;
+
+
+
+}
+
+.hiro_text {
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 8%;
+
+}
+
+.text h1 {
+    font-family: Gilroy;
+    font-size: 60.73px;
+    font-weight: 800;
+    line-height: 65.91px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.text p {
+
+    font-family: Gilroy;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    color: #9E9DA2;
+}
+
+.hiro_text button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 260px;
+    height: 66.77px;
+    font-family: Gilroy;
+    font-size: 24.6px;
+    font-weight: 800;
+    margin-right: 5%;
+    border-radius: 5px;
+
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+
+
+
+}
+
+.hiro_form {
+    margin-top: 70px;
+    margin-left: 12%;
+
+}
+
+.hiro_form {
+
+    background-color: #75BF7A;
+    width: 80%;
+    height: 166px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.form1 {
+
+    width: 1280px;
+    height: 166px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.label1 {
+
+    font-family: Gilroy;
+    font-size: 24.6px;
+    font-weight: 600;
+    display: inline-flex;
+    color: white;
+
+
+}
+
+.input1 {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 499px;
+    height: 67px;
+    border-radius: 4.39px 0px 0px 0px;
+    border-color: #75BF7A;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #DADADA;
+
+}
+
+.bt3 {
+
+    width: 260px;
+    height: 67px;
+    background-color: #000000;
+    border-radius: 4.39px 0px 0px 0px;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+.textspan {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 8%;
+}
+
+
+
+.textspan h1 {
+    margin-top: 0px;
+    font-family: Gilroy;
+    font-size: 46.39px;
+    font-weight: 800;
+    line-height: 50.35px;
+    font-weight: bold;
+}
+
+.textspan .s {
+    color: #75BF7A;
+}
+
+.textspan .s2 {
+    color: black;
+}
+
+
+
+
+
+
+.textspan p {
+    font-family: Gilroy;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #9E9DA2;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+.tree_section {
+    display: grid;
+
+    ;
+    /* align-content: center; */
+    /* text-align: center; */
+    margin-left: 1%;
+    margin-top: 6%;
+}
+
+.benefits {
+    display: grid;
+
+    grid-template-columns: 1fr 24rem 1fr;
+    gap: 7rem;
+    align-items: start;
+}
+
+.benefits h1 {}
+
+.benefits h1 span {}
+
+.tree_section .benefits .card {
+    display: grid;
+    grid-template-columns: 23rem;
+    justify-content: start;
+}
+
+.benefits .left {
+    justify-content: end;
+    text-align: end;
+}
+
+.benefits .card img {}
+
+.benefits .card h2 {
+    font-weight: 600;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50.35px;
+    margin-bottom: 0px;
+
+
+}
+
+.benefits .card p {
+    color: #9E9DA2;
+    font-weight: 300;
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 0px;
+
+
+}
+
+.benefits .card .number {
+    font-size: 34px;
+    color: #75BF7A;
+    /* margin-bottom: 0%; */
+    margin-right: 6%;
+    margin-top: -14%;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+
+
+.benefits .image {
+    grid-row: span 2;
+    position: relative;
+    z-index: 1;
+}
+
+.benefits .image img {}
+
+.tree_section .benefits .image::before {
+    position: absolute;
+    content: "";
+    background-color: #75bf7a;
+    width: 26.3rem;
+    height: 26.3rem;
+    top: 4.5rem;
+    left: -4.5rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media (max-width:768px) {
+    .tree_section .benefits {
+        grid-template-columns: 1fr;
+
+    }
+
+    .tree_section .benefits .card {}
+
+    .tree_section .benefits .image {
+        order: -1;
+    }
+}
+
+
+
+
+
+
+
+.title {
+    font-family: Gilroy;
+    font-size: 46.39px;
+    font-weight: 800;
+    line-height: 50.35px;
+    text-align: left;
+    color: #75BF7A;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.title span {
+    color: #000000;
+}
+
+.tree_benfit {
+    width: 80%;
+    padding-top: 20px;
+    display: grid;
+    padding-bottom: 2%;
+}
+
+.tree_benfit div {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tree_benfit .first {
+    grid-template-columns: 60% 2fr;
+    background-color: white;
+    width: 1060px;
+    height: 304px;
+    display: grid;
+
+    margin-left: 180px;
+
+}
+
+.tree_benfit .first .info {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+
+}
+
+.tree_benfit .first .info h1 {
+    color: #75BF7A;
+    font-family: Gilroy;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 118.8px;
+    text-align: left;
+    margin-left: 19px;
+
+
+}
+
+.tree_benfit .first .info h2 {
+    margin-left: 15px;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 33.94px;
+    font-weight: 600;
+    line-height: 32.5px;
+    text-align: left;
+    margin-left: 21%;
+    margin-top: 0px;
+
+}
+
+.tree_benfit .first .info p {
+    color: #9E9DA2;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    margin-left: 4%;
+    margin-top: 0px;
+
+
+}
+
+.tree_benfit .im img {
+    width: 256.79px;
+    height: 254.82px;
+    padding-top: 25px;
+
+
+}
+
+.tree_benfit1 {
+    margin-left: 11%;
+}
+
+.tree_benfit1 .second .im {
+    margin-left: 17%;
+
+
+}
+
+.tree_benfit1 .second .info h2 {
+    margin-left: 33%;
+    margin-top: 4%;
+
+}
+
+.contact {
+    width: 100%;
+    display: grid;
+
+
+}
+
+.contact_card {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-left: 6%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact div {
+    padding-top: 3%;
+    background-color: white;
+}
+
+.contact .contact_buttons button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 153px;
+    height: 66.77px;
+    font-family: Gilroy;
+    font-size: 14.6px;
+    font-weight: 800;
+    margin-right: 0%;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.contact .Be_our_friend p {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #8B8BA5;
+}
+
+.contact .Be_our_friend h1 {
+
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.69px;
+    text-align: left;
+    color: #272042;
+    margin-top: 0px;
+}
+
+.contact .line {
+    width: 100%;
+    height: 0px;
+    /* color: #ECECEC; */
+    background-color: #ECECEC;
+    padding-top: 2px
+}
+
+.contact .line div {
+    height: 1px;
+    border: 1px 1px 1px 1px;
+}
+
+.contact .contact_card .contact_logo img {
+    width: 131px;
+    height: 37.12px;
+
+
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 215%;
+
+}
+
+.footer p {
+    margin-top: 0px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #75BF7A;
+    text-align: center;
+}
